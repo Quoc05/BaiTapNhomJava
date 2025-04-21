@@ -12,9 +12,7 @@ public class ConnectDB {
 		return instance;
 	}
 
-	public static Connection getConnection() {
-		return con;
-	}
+	
 
 	public void connect() throws SQLException {
 		String url = "jdbc:sqlserver://localhost:1433;databaseName=QuanLyCuaHangTienLoi";
